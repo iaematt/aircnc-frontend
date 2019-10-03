@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: "http://petroapi.ddns.net:3000",
+    baseURL: "your_api_url_here",
 });
 
 export default api;
